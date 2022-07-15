@@ -50,7 +50,7 @@ export default function section3() {
 function Post({ data }) {
   const { id, title, category, img, published, author, description } = data;
   return (
-    <div className="grid shadow-xl ">
+    <div className="grid">
       <div className="images">
         <Link href={"/"}>
           <a>
