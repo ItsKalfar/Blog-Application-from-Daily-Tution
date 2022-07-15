@@ -42,7 +42,7 @@ function Post({ data }) {
       <div className="image flex flex-col justify-start">
         <Link href={`/posts/${id}`}>
           <a>
-            <Image src={img} className="rounded" width={300} height={200} />
+            <Image alt="image" src={img} className="rounded" width={300} height={200} />
           </a>
         </Link>
       </div>
