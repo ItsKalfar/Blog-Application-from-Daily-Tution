@@ -49,8 +49,8 @@ export default function section1() {
           loop={true}
         >
           {data.map((value, index) => (
-            <SwiperSlide>
-              <Slide data={value} key={index} />
+            <SwiperSlide key={index}>
+              <Slide data={value} />
             </SwiperSlide>
           ))}
           ...
@@ -67,7 +67,7 @@ function Slide({ data }) {
       <div className="image">
         <Link href={`/posts/${id}`}>
           <a>
-            <Image src={img || "/"} width={600} height={600} />
+            <Image alt="image" src={img || "/"} width={600} height={600} />
           </a>
         </Link>
       </div>
