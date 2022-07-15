@@ -1,4 +1,4 @@
-import Author from "../../components/_child/author";
+import Author from "../../components/_child/Author";
 import Image from "next/image";
 import Ralated from "../../components/_child/ralated";
 import getPost from "../../lib/helper";
