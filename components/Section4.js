@@ -55,6 +55,7 @@ function Post({ data }) {
         <Link href={"/"}>
           <a>
             <Image
+              alt="image"
               src={img || "/"}
               className="rounded"
               width={300}
