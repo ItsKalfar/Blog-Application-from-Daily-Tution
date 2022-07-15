@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Author from "./author";
+import Author from "./Author";
 import fetcher from "../../lib/fetcher";
 import Spinner from "./Spinner";
 import Error from "./error";
