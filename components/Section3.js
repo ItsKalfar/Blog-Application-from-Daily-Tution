@@ -37,8 +37,8 @@ export default function section3() {
         }}
       >
         {data.map((value, index) => (
-          <SwiperSlide>
-            <Post data={value} key={index} />
+          <SwiperSlide key={index}>
+            <Post data={value}  />
           </SwiperSlide>
         ))}
         ...
@@ -54,7 +54,7 @@ function Post({ data }) {
       <div className="images">
         <Link href={"/"}>
           <a>
-            <Image src={img || "/"} width={600} height={400} />
+            <Image alt="image" src={img || "/"} width={600} height={400} />
           </a>
         </Link>
       </div>
