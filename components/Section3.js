@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 import Image from "next/image";
-import Author from "./_child/author";
+import Author from "./_child/Author";
 import Spinner from "./_child/Spinner";
 import Error from "./_child/error";
 import fetcher from "../lib/fetcher";
