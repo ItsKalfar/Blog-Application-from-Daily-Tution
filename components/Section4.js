@@ -1,4 +1,4 @@
-import Author from "./_child/author";
+import Author from "./_child/Author";
 import Link from "next/link";
 import Image from "next/image";
 import Spinner from "./_child/Spinner";
